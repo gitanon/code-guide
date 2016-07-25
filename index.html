@@ -46,7 +46,7 @@ layout: default
 <div class="section" id="golden-rule">
   <div class="col">
     <h2>Золотое правило</h2>
-    <p>Строго соблюдайте предложенные здесь или свои собственные соглашения. Если вы нашли ошибку, будь она большая или маленькая, сразу сообщите об этом. Если у вас есть что дополнить или вы хотите принять участие в разработке этих соглашений, пожалуйста, <a href="https://github.com/mdo/code-guide/issues/new">создайте issue на GitHub</a>.</p>
+    <p>Строго соблюдайте предложенные здесь или свои собственные соглашения. Если вы нашли ошибку, будь она большая или маленькая, сразу сообщите об этом. Если у вас есть что дополнить или вы хотите принять участие в разработке этих соглашений, пожалуйста, <a href="https://github.com/gitanon/code-guide/issues/new">создайте issue на GitHub</a>.</p>
   </div>
   <div class="col">
     <blockquote>
@@ -55,7 +55,19 @@ layout: default
   </div>
 </div>
 
-
+<div class="section" id="css-editor-prefs">
+  <div class="col">
+    <h3>Настройки редактора кода</h3>
+    <p>Установите в вашем редакторе следующие настройки, которые помогут избежать распространенных несогласованностей в коде и грязи:</p>
+    <ul>
+      <li>Использовать мягкие отступы размером в два пробела.</li>
+      <li>Обрезать конечные пробелы при сохранении.</li>
+      <li>Кодировка файлов UTF-8.</li>
+      <li>Добавлять новую строку в конец файлов.</li>
+    </ul>
+    <p>Подумайте над документированием и применением этих настроек в файле <code>.editorconfig</code> вашего проекта. Для примера, ознакомьтесь с <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">файлом настроек для Bootstrap</a>. Узнайте больше <a href="http://editorconfig.org">об EditorConfig</a>.</p>
+  </div>
+</div>
 
 <div class="heading" id="html">
   <h2>HTML</h2>
@@ -391,19 +403,5 @@ layout: default
   </div>
   <div class="col">
     {% highlight css %}{% include css/organization-comments.css %}{% endhighlight %}
-  </div>
-</div>
-
-<div class="section" id="css-editor-prefs">
-  <div class="col">
-    <h3>Настройки редактора кода</h3>
-    <p>Установите в вашем редакторе следующие настройки, которые помогут избежать распространенных несогласованностей в коде и грязи:</p>
-    <ul>
-      <li>Использовать мягкие отступы размером в два пробела.</li>
-      <li>Обрезать конечные пробелы при сохранении.</li>
-      <li>Кодировка файлов UTF-8.</li>
-      <li>Добавлять новую строку в конец файлов.</li>
-    </ul>
-    <p>Подумайте над документированием и применением этих настроек в файле <code>.editorconfig</code> вашего проекта. Для примера, ознакомьтесь с <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">файлом настроек для Bootstrap</a>. Узнайте больше <a href="http://editorconfig.org">об EditorConfig</a>.</p>
   </div>
 </div>
