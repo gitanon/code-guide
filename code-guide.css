@@ -188,12 +188,12 @@ pre code {
 
 .masthead {
   padding: 3rem 1rem;
-  color: rgba(255,255,255,.5);
+  color: rgba(0,0,0,.5);
   text-align: center;
-  background-color: #2a3440;
+  background-color: #fff;
 }
 .masthead h1 {
-  color: #fff;
+  color: #000;
   margin-bottom: .25rem;
 }
 .masthead .icon {
@@ -205,12 +205,12 @@ pre code {
   font-size: 2rem;
 }
 .masthead-links a {
-  color: rgba(255,255,255,.5);
+  color: rgba(0,0,0,.5);
   text-decoration: none;
   transition: all .15s linear;
 }
 .masthead-links a:hover {
-  color: #fff;
+  color: #000;
 }
 
 @media (min-width: 38rem) {
