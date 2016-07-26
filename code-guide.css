@@ -52,11 +52,11 @@ html {
 body {
   margin: 0;
   font: 1rem/1.5 "PT Sans", sans-serif;
-  color: #5a5a5a;
+  color: #34495e;
 }
 
 a {
-  color: #08c;
+  color: #3498db;
   text-decoration: none;
 }
 a:hover {
@@ -67,7 +67,7 @@ h1, h2, h3, h4 {
   margin: 0 0 .5rem;
   font-weight: normal;
   line-height: 1;
-  color: #2a2a2a;
+  color: #2c3e50;
   letter-spacing: -.05em;
 }
 h1 { font-size: 3rem; }
@@ -188,12 +188,12 @@ pre code {
 
 .masthead {
   padding: 3rem 1rem;
-  color: rgba(0,0,0,.5);
+  color: rgba(44,62,80,.5);
   text-align: center;
-  background-color: #fff;
+  background-color: #ecf0f1;
 }
 .masthead h1 {
-  color: #000;
+  color: #2c3e50;
   margin-bottom: .25rem;
 }
 .masthead .icon {
@@ -205,12 +205,12 @@ pre code {
   font-size: 2rem;
 }
 .masthead-links a {
-  color: rgba(0,0,0,.5);
+  color: rgba(44,62,80,.5);
   text-decoration: none;
   transition: all .15s linear;
 }
 .masthead-links a:hover {
-  color: #000;
+  color: #2c3e50;
 }
 
 @media (min-width: 38rem) {
@@ -227,7 +227,7 @@ pre code {
 
 .heading {
   padding: 2rem 1rem 1.5rem;
-  background-color: #dfe1e8;
+  background-color: #bdc3c7;
 }
 
 @media (min-width: 38rem) {
@@ -237,7 +237,7 @@ pre code {
 }
 
 .section {
-  border-bottom: 1px solid #dfe1e8;
+  border-bottom: 1px solid #95a5a6;
 }
 
 
