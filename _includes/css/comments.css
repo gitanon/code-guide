@@ -1,11 +1,9 @@
 /* Плохой пример */
 /* Modal header */
-.modal-header {
+.modal-header
   ...
-}
 
 /* Хороший пример */
 /* Обертывающий элемент для .modal-title и .modal-close */
-.modal-header {
+.modal-header
   ...
-}

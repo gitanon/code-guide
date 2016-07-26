@@ -1,9 +1,18 @@
-.element { ... }
-.element-avatar { ... }
-.element-selected { ... }
+.element
+  ...
 
-@media (min-width: 480px) {
-  .element { ...}
-  .element-avatar { ... }
-  .element-selected { ... }
-}
+.element-avatar
+  ...
+
+.element-selected
+  ...
+
+@media (min-width: tablet) 
+  .element
+    ...
+
+  .element-avatar
+    ...
+
+  .element-selected
+    ...
