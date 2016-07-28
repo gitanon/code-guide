@@ -218,6 +218,20 @@ layout: default
   <h2><a href="http://stylus-lang.com/">Stylus</a></h2>
 </div>
 
+<div class="section" id="css-set">
+  <div class="col">
+    <h3>Подход к разработке стилей</h3>
+    <ul>Mobile first использующий следующие разрешения:
+      <li>mobile (экраны шириной от 0 до 640px), стили пишутся без использования медия выражений</li>
+      <li>tablet = 40em (экраны шириной от 640px и больше), стили пишутся в медиа выражении @media (min-width: tablet)</li>
+      <li>screen = 64em (экраны шириной от 1024px и больше), стили пишутся в медиа выражении @media (min-width: screen)</li>
+      <li>screen_large = 90em (экраны шириной от 1440px и больше), стили пишутся в медиа выражении @media (min-width: screen_large)</li>
+    </ul>
+  <div class="col">
+    {% highlight css %}{% include css/set.css %}{% endhighlight %}
+  </div>
+</div>
+
 <div class="section" id="css-syntax">
   <div class="col">
     <h3>Синтаксис</h3>
